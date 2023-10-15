@@ -1,49 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-        <link rel="stylesheet" href="default.css" />
-        <title>Seraphine</title>
-    </head>
-    <body>
-        <h1>Group: Seraphine</h1>
-        <div class="group-photo--container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="default.css" />
+    <title>Seraphine</title>
+  </head>
+  <body>
+    <div class="hero-section">
+      <img class="favicon" src="images/favicon.ico" />
+      <h1>SERAPHINE</h1>
+    </div>
+
+    <div class="profile-container">
+      <div class="group-photo--container">
+        <div class="outline-image" id="first-outline">
+          <div class="outline-image" id="second-outline">
             <img
-                src="images/group.jpeg"
-                alt="Group photo"
-                class="group-photo"
-                usemap="#group-map"
+              src="images/group.jpeg"
+              alt="Group photo"
+              class="group-photo"
+              usemap="#group-map"
             />
-            <map name="group-map">
-                <area
-                    shape="rect"
-                    coords="0,0,150,400"
-                    alt="Nguyen Trong Hieu"
-                    href="./members/21127278/21127278.html"
-                />
-                <area
-                    shape="rect"
-                    coords="151,0,300,400"
-                    alt="Le Thi Minh Thu"
-                    href="./members/21127697/21127697.html"
-                />
-            </map>
+          </div>
         </div>
 
-        <div class="group-members--container">
-            <h2>Group Members</h2>
-            <ul>
-                <li>
-                    <span class="member-id">21127278</span>
-                    <span class="member-name">Nguyen Trong Hieu</span>
-                </li>
-                <li>
-                    <span class="member-id">21127697</span>
-                    <span class="member-name">Le Thi Minh Thu</span>
-                </li>
-            </ul>
+        <map name="group-map">
+          <area
+            shape="rect"
+            coords="0,0,150,300"
+            alt="Nguyen Trong Hieu"
+            href="./members/21127278/21127278.html"
+          />
+          <area
+            shape="rect"
+            coords="151,0,300,300"
+            alt="Le Thi Minh Thu"
+            href="./members/21127697/21127697.html"
+          />
+        </map>
+      </div>
+
+      <div class="information-container">
+        <div>
+          <p>Group name</p>
+          <h2>SERAPHINE</h2>
         </div>
-    </body>
+        <div></div>
+        <div class="group-members--container">
+          <h2>Group Members</h2>
+          <ul>
+            <li>
+              <span class="member-id">21127278</span>
+              <span class="member-name">Nguyen Trong Hieu</span>
+            </li>
+            <li>
+              <span class="member-id">21127697</span>
+              <span class="member-name">Le Thi Minh Thu</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
