@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="default.css" />
+    <script
+      src="https://kit.fontawesome.com/379ff98abd.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Seraphine</title>
   </head>
   <body>
@@ -43,21 +47,88 @@
       </div>
 
       <div class="information-container">
-        <div>
-          <p>Group name</p>
-          <h2>SERAPHINE</h2>
+        <div class="information">
+          <p class="title">Group name</p>
+          <h2 id="group-name" class="content">SERAPHINE</h2>
         </div>
-        <div></div>
-        <div class="group-members--container">
-          <h2>Group Members</h2>
-          <ul>
-            <li>
-              <span class="member-id">21127278</span>
-              <span class="member-name">Nguyen Trong Hieu</span>
+
+        <div class="information">
+          <p class="title">Github</p>
+
+          <a
+            class="content"
+            href="https://github.com/hcmus-wad-seraphine"
+            target="_blank"
+          >
+            <span id="github">
+              <i id="github" class="fa-brands fa-github"></i>
+              <h2 id="github">hcmus-wad-seraphine</h2>
+            </span>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+
+        <div class="information">
+          <p class="title">Working at</p>
+
+          <ul class="working-place">
+            <li class="working-place content">
+              <img
+                id="walless"
+                class="working-place"
+                src="images/walless-logo.svg"
+              />
+              <a
+                id="walles"
+                class="working-place"
+                href="https://walless.io"
+                target="_blank"
+              >
+                <h2 id="walless">walless</h2>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
             </li>
-            <li>
-              <span class="member-id">21127697</span>
-              <span class="member-name">Le Thi Minh Thu</span>
+
+            <li class="working-place content">
+              <img class="working-place" src="images/hcmus-logo.svg" />
+
+              <a
+                id="hcmus"
+                class="working-place"
+                href="https://www.hcmus.edu.vn/"
+                target="_blank"
+              >
+                <h2 id="hcmus">hcmus</h2>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="group-members--container">
+          <p class="title">Members</p>
+          <ul class="content">
+            <li class="member">
+              <h2>21127278 - Nguyen Trong Hieu</h2>
+            </li>
+
+            <li class="member">
+              <h2>21127697 - Le Thi Minh Thu</h2>
+            </li>
+          </ul>
+        </div>
+
+        <div class="information">
+          <p class="title">Contact</p>
+
+          <ul>
+            <li class="content contact" id="email--container">
+              <i class="fa-solid fa-envelope"></i>
+              <h2 id="contact-email">seraphine@gmail.com</h2>
+            </li>
+            <li class="content contact" id="phone--container">
+              <i class="fa-solid fa-phone"></i>
+              <h2 id="contact-phone">0938001549</h2>
             </li>
           </ul>
         </div>
